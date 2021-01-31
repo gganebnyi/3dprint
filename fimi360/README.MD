@@ -23,11 +23,25 @@ Pre-build: [build/mount.stl](build/mount.stl)
 
 Source: [src/extender.scad](src/extender.scad)
 
-Pre-build: [build/extender.stl](build/extender.stl), [build/extender30.stl](build/extender30.stl), [build/extender50.stl](build/extender50.stl)
+Pre-build: [build/extender30.stl](build/extender30.stl), [build/extender50.stl](build/extender50.stl), [build/extender.stl](build/extender.stl)
 
-For my purposes I made GoPro-to-1/4 extenders since I was putting 360 camera under my drone. But you can easily convert it to GoPro-to-GoPro extender. Just take a look into [lib/gopro_mounts_mooncactus.scad](lib/gopro_mounts_mooncactus.scad) usage examples.
+For my purposes I made GoPro-to-1/4 extenders since I was putting 360 camera under my drone. But you can easily convert it to GoPro-to-GoPro extender. Just take a look into [lib/gopro_mounts_mooncactus.scad](lib/gopro_mounts_mooncactus.scad) usage examples. 
 
-### Flexible joint
+You can create extender of any length by adjusting this line in source file%
+
+```
+extender(30);
+```
+
+There is several ready-to-use .stl's in build folder.
+
+### Flexible joint 
+
+Source: [src/flexible_extender.scad](src/flexible_extender.scad)
+
+Pre-build: [build/flexible_joint.stl](build/flexible_joint.stl)
+
+When I was trying to use approx. 100mm extender with my QooCam, drone became unstable so I decided to add a flexible joint in order to damp drone and camera movements. I also put some rubber bands around the joint for better damping.
 
 
 
