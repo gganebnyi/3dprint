@@ -43,5 +43,11 @@ Pre-build: [build/flexible_joint.stl](build/flexible_joint.stl)
 
 When I was trying to use approx. 100mm extender with my QooCam, drone became unstable so I decided to add a flexible joint in order to damp drone and camera movements. I also put some rubber bands around the joint for better damping.
 
+![Fleeeexible!](img/flex_joint.gif)
 
+![Flexible joint with connector](img/flex_joint.jpeg)
+
+## Happy flying and filming!
+
+### PS: this is just my hobby :) For serious things that my company does (web and mobile development) - please visit [https://fusion.works](https://fusion.works)
 
