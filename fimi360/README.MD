@@ -47,7 +47,7 @@ When I was trying to use approx. 100mm extender with my QooCam, drone became uns
 
 ![Flexible joint with connector](img/flex_joint.jpeg)
 
-## Happy flying and filming!
+**Happy flying and filming!**
 
-### PS: this is just my hobby :) For serious things that my company does (web and mobile development) - please visit [https://fusion.works](https://fusion.works)
+**PS**: this is just my hobby :) For serious things that my company does (web and mobile development) - please visit [https://fusion.works](https://fusion.works)
 
