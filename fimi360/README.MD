@@ -2,15 +2,32 @@
 
 ## Description
 
-![FIMI X8 SE with mount](images/drone.jpeg)
+![FIMI X8 SE with mount](img/drone.jpeg)
 
-This project enables mounting cameras with 1/4-20 UNC and GoPro connectors to FIMI X8 SE drone. I used this awesome [mount project](https://www.thingiverse.com/thing:3713687) from Thingverse as starting point and extended it using [this](https://www.thingiverse.com/thing:62800) and [this](https://www.thingiverse.com/thing:125939) libraries. Project is created using OpenSCAD so it is very easy to modify it. So feel free to open it in OpenSCAD and adjust to your needs or use pre-build components from [build](build/) folder.
+This project enables mounting cameras with 1/4-20 UNC and GoPro connectors to FIMI X8 SE drone. Primarily it was developed for mounting my QooCam 8K under FIMI X8 drone. But eventually you can use it for any camera with compatible mount.   
+
+I used this awesome [mount project](https://www.thingiverse.com/thing:3713687) from Thingverse as starting point and extended it using [this](https://www.thingiverse.com/thing:62800) and [this](https://www.thingiverse.com/thing:125939) libraries. Project is created using OpenSCAD so it is very easy to modify it. So feel free to open it in OpenSCAD and adjust to your needs or use pre-build components from [build](build/) folder.
 
 ## Components
 
-### Drone mount with triple GoPro connector
+![Components](img/components.jpeg)
+Left to right: extenders, flexible joint, drone mount
+
+### Drone mount with triple GoPro connector 
 
 Source: [src/mount.scad](src/mount.scad)
 
 Pre-build: [build/mount.stl](build/mount.stl)
+
+### Extenders with double GoPro and 1/4-20 UNC connectors
+
+Source: [src/extender.scad](src/extender.scad)
+
+Pre-build: [build/extender.stl](build/extender.stl), [build/extender30.stl](build/extender30.stl), [build/extender50.stl](build/extender50.stl)
+
+For my purposes I made GoPro-to-1/4 extenders since I was putting 360 camera under my drone. But you can easily convert it to GoPro-to-GoPro extender. Just take a look into [lib/gopro_mounts_mooncactus.scad](lib/gopro_mounts_mooncactus.scad) usage examples.
+
+### Flexible joint
+
+
 
