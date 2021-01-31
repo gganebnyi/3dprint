@@ -7,6 +7,8 @@ This project enables mounting cameras with 1/4-20 UNC and GoPro connectors to FI
 ## Components
 
 ### Drone mount with triple GoPro connector
-Source: [src/mount.scad]
-Pre-build: [build/mount.stl]
+
+Source: [src/mount.scad](src/mount.scad)
+
+Pre-build: [build/mount.stl](build/mount.stl)
 
